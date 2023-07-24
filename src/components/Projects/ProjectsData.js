@@ -13,6 +13,11 @@ import gasolineraProject from "../../images/projects/gasolinera.jpeg";
 import marvelProject from "../../images/projects/marvel.jpeg";
 import rickMorty from "../../images/projects/rick-morty.jpeg";
 import tareasProject from "../../images/projects/todo.jpeg";
+import crypto from "../../images/projects/crypto.jpeg";
+import citas from "../../images/projects/citas-react.jpeg"; 
+import crm from "../../images/projects/CRM.jpeg";
+import snk from "../../images/projects/Snk.jpeg";
+import marvelApi from "../../images/projects/MarvelApi.jpeg";
 
 export const projectsPortfolio = [
   {
@@ -24,8 +29,8 @@ export const projectsPortfolio = [
     ],
     description:
       "Application created with React JS and CSS to make a request an external API of Rick & Morty.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    repository: "https://github.com/Brayanveloza/rickandmorty",
+    website: "https://ubiquitous-nougat-178abb.netlify.app/",
   },
   {
     title: "Todo list",
@@ -36,8 +41,8 @@ export const projectsPortfolio = [
     ],
     description:
       "Application created with React JS and to make a list of tasks where you can add or remove it.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    repository: "https://github.com/Brayanveloza/todo-list",
+    website: "https://64bc0870b6caba0626982f55--ephemeral-concha-c9fc79.netlify.app/",
   },
   {
     title: "Simpsons API",
@@ -48,8 +53,8 @@ export const projectsPortfolio = [
     ],
     description:
       "Application created with React JS and Styled Components to make a request an external API of Simpsons.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    repository: "https://github.com/Brayanveloza/Frases-simpons",
+    website: "https://classy-pothos-021259.netlify.app/", 
   },
   {
     title: "Marvel API",
@@ -62,8 +67,8 @@ export const projectsPortfolio = [
     ],
     description:
       "Application created with React JS, React-Router and Sass to make a request an external API of Marvel.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    repository: "https://github.com/Brayanveloza/Marvel-react",
+    website: "https://enchanting-bonbon-7f85dd.netlify.app/", 
   },
   {
     title: "Dynamic Form",
@@ -74,8 +79,8 @@ export const projectsPortfolio = [
     ],
     description:
       "Application of a landing page created with React JS and React Bootstrap to make a form with dynamic fields.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    repository: "https://github.com/Brayanveloza/dynamic",
+    website: "https://glittery-biscuit-b256e0.netlify.app/", 
   },
   {
     title: "Fuel Station",
@@ -87,7 +92,72 @@ export const projectsPortfolio = [
     ],
     description:
       "Application created with Vite where you can save the information and see it on a summary.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
-    website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
+    repository: "https://github.com/Brayanveloza/gasolina-react",
+    website: "https://luxury-liger-3938ba.netlify.app/",
+  },
+  {
+    title: "Crypto",
+    image: crypto,
+    techs: [
+      { name: "Vite", src: viteImage },
+      { name: "React Router DOM", src: reactRouterdomImage },
+
+    ],
+    description:
+      "Application created with vite, to make a request to an external cryptocurrency API.",
+    repository: "https://github.com/Brayanveloza/cripto-react",
+    website: "https://serene-medovik-1cb61b.netlify.app/", 
+  },
+  {
+    title: "Citas-react",
+    image: citas,
+    techs: [
+      { name: "Vite", src: viteImage },
+      { name: "React Router DOM", src: reactRouterdomImage },
+    ],
+    description:
+      "Application created with Vite where you can save the information, view, modify and delete it.",
+    repository: "https://github.com/Brayanveloza/citas-react",
+    website: "https://rad-eclair-362b27.netlify.app/",
+  },
+  {
+    title: "CRM",
+    image: crm,
+    techs: [
+      { name: "Vite", src: viteImage },
+      { name: "React Router DOM", src: reactRouterdomImage },
+    ],
+    description:
+      "Application created with Vite where you can save the information, view and modify it.",
+    repository: "https://github.com/Brayanveloza/crm-react",
+    website: "https://darling-puppy-93fef1.netlify.app/", 
+  },
+  {
+    title: "SNK",
+    image: snk,
+    techs: [
+      { name: "React", src: reactImage },
+      { name: "React Router", src: reactRouterdomImage },
+      { name: "CSS", src: cssImage },
+    ],
+    description:
+      "Application created with React, CSS and React-Router to make Attack on Titan.",
+    repository: "https://github.com/Brayanveloza/proyecto-final",
+    website: "https://comforting-mochi-143d0d.netlify.app/", 
+  },
+  {
+    title: "Marvel Proyecto",
+    image: marvelApi,
+    techs: [
+      { name: "React", src: reactImage },
+      { name: "React Router", src: reactRouterdomImage },
+      { name: "CSS", src: cssImage },
+      { name: "Sass", src: sassImage },
+      { name: "Semantic", src: semanticImage },
+    ],
+    description:
+    "Application created with React JS, React-Router and Sass to make a request an external API of Marvel.",
+    repository: "https://github.com/Brayanveloza/Marvel-Api",
+    website: "https://bucolic-crumble-418ccb.netlify.app/", 
   },
 ];

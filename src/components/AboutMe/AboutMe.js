@@ -8,17 +8,17 @@ const AboutMe = () => {
   const socialNetworks = [
     {
       name: "Github",
-      link: "https://github.com/ivandevia",
+      link: "https://github.com/Brayanveloza",
       logo: logoGithub,
     },
     {
       name: "Linkedind",
-      link: "www.linkedin.com/in/ivan-devia-acosta-38b9aa141",
+      link: "https://www.linkedin.com/feed/",
       logo: logoLinkeind,
     },
     {
       name: "Youtube",
-      link: "https://www.youtube.com/channel/UC2Gv4AvSJOPFQ6pjGFk7U2g",
+      link: "https://www.youtube.com",
       logo: logoYoutube,
     },
   ];
@@ -28,14 +28,12 @@ const AboutMe = () => {
       <S.ContainerFlex>
         <S.ContainerText>
           <S.Title>
-            <p>👋🏼 Hello, i'm</p>
-            <p>Iván Devia Acosta</p>
+            <p>👋🏼 Hola, Soy Brayan Steven</p>
+            <p>Brayan Steven Veloza Cruz</p>
             <p>Backend Developer</p>
           </S.Title>
           <S.DescriptionText>
-            Ing. de Sistemas, Mg. en Gestión de Tecnología Educativa, Maestrante
-            en Dirección Estratégica en Ing de Software, con 17 años de
-            experiencia en el sector productivo y educativo.
+          Estudiante de Análisis de sistema de información en el Sena y Programador Front End de la Universidad Distrital, brindando lo mejor de mi cada día, tanto en el aspecto laboral como en el aspecto personal. 
           </S.DescriptionText>
           <S.ContainerIcons>
             {socialNetworks.map((network, index) => (
@@ -51,7 +49,6 @@ const AboutMe = () => {
           </S.ContainerIcons>
         </S.ContainerText>
         <S.ContainerImage>
-          <img src="/img/Logo.png" alt="Iván Devia - Backend Developer" />
         </S.ContainerImage>
       </S.ContainerFlex>
     </S.ContainerAboutMe>

@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <S.ContainerNavBar>
       <S.ContainerLogo>
-        <S.ImageLogo src="/img/logo.jpeg" alt="Logo Ivan" />
+        <S.ImageLogo src="/img/logo.jpeg" />
         <div>
           <h1>Brayan Steven Veloza Cruz</h1>
           <h2>Sw Developer Front End</h2>
@@ -25,8 +25,7 @@ const NavBar = () => {
       <S.ContainerItems showMenuBurguer={showMenuBurguer}>
         <p onClick={() => clickItemNav("about-me")}>About Me</p>
         <p onClick={() => clickItemNav("projects")}>Projects</p>
-        <S.Button onClick={() => clickItemNav("contact")}>
-          {" "}
+        <S.Button>
           🤙 Contact me
         </S.Button>
       </S.ContainerItems>

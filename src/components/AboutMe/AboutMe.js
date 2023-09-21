@@ -28,9 +28,9 @@ const AboutMe = () => {
       <S.ContainerFlex>
         <S.ContainerText>
           <S.Title>
-            <p>👋🏼 Hola, Soy Brayan Steven</p>
+            <p>👋🏼 Hola, Soy Brayan Veloza</p>
             <p>Brayan Steven Veloza Cruz</p>
-            <p>Backend Developer</p>
+            <p>Front End</p>
           </S.Title>
           <S.DescriptionText>
           Estudiante de Análisis de sistema de información en el Sena y Programador Front End de la Universidad Distrital, brindando lo mejor de mi cada día, tanto en el aspecto laboral como en el aspecto personal. 
